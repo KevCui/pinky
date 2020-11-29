@@ -12,13 +12,13 @@ set -e
 set -u
 
 main() {
-    local pin="" string="${1:-}" char num
+    local pin="" letters="${1:-}" char num
 
-    [[ -z "${string:-}" ]] && read -rsp "Enter letter(s): " string && echo
+    [[ -z "${letters:-}" ]] && read -rsp "Enter letter(s): " letters && echo
 
-    for l in $(seq 1 ${#string}); do
+    for l in $(seq 1 ${#letters}); do
         num=""
-        char="${string:l-1:1}"
+        char="${letters:l-1:1}"
         [[ "$char" =~ [0-9] ]] && num="$char"
         [[ "wxyz" == *"${char,,}"* ]] && num="9"
         [[ "tuv" == *"${char,,}"* ]]  && num="8"
