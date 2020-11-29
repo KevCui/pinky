@@ -4,7 +4,7 @@
 
 ## How it works
 
-Pinky (pin-key) is a Bash script used to generate PIN code. It simply maps letters to numbers according to [phone keypad layout](https://en.wikipedia.org/wiki/Telephone_keypad):
+Pinky.sh (pin-key) is a Bash script used to generate PIN code. It simply maps letters to numbers according to [phone keypad layout](https://en.wikipedia.org/wiki/Telephone_keypad):
 
 | Number | Letter |
 | ------ | ------ |
@@ -23,21 +23,21 @@ Pinky (pin-key) is a Bash script used to generate PIN code. It simply maps lette
 
 ```
 Usage:
-  ./pinky <letters>
+  ./pinky.sh <letters>
   OR
-  ./pinky
+  ./pinky.sh
   Enter letter(s): <letters>
 ```
 
 ### Example
 
 ```bash
-$ ./pinky test
+$ ./pinky.sh test
 8378
 ```
 
 ```bash
-$ ./pinky
+$ ./pinky.sh
 Enter letter(s): test
 8378
 ```

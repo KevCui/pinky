@@ -3,9 +3,9 @@
 # Generate PIN codes from letters using phone keypad layout
 #
 #/ Usage:
-#/   ./pinky <letters>
+#/   ./pinky.sh <letters>
 #/   OR
-#/   ./pinky
+#/   ./pinky.sh
 #/   Enter letter(s): <letters>
 
 set -e
