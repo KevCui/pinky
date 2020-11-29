@@ -1,4 +1,4 @@
-# Pinky
+# pinky
 
 > Generate PIN codes from letters using phone keypad layout
 
