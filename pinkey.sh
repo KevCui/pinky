@@ -3,10 +3,10 @@
 # Generate PIN codes from letters using phone keypad layout
 #
 #/ Usage:
-#/   ./pinkey.sh <string>
+#/   ./pinkey.sh <letters>
 #/   OR
 #/   ./pinkey.sh
-#/   Enter letter(s): <string>
+#/   Enter letter(s): <letters>
 
 set -e
 set -u
